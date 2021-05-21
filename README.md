@@ -3,13 +3,15 @@ Some concepts taught as a part of Computer Graphics course in OpenGL.
 
 # DEPENDENCIES
 Open GL Library
+
 _Change the header used in each file according to the location where you have stored the OpenGL library files._
 
 # HOW TO RUN
 To run any file, it must be compiled using:
-'''
+
+```
 g++ filename.cpp -lopengl32 -lglu32 -lfreeglut
-'''
+```
 Then execute the executable created. This is for Windows Users.
 
 # CODES
@@ -59,7 +61,7 @@ Two sides have colors with text written, while the other four sides have texture
 The text is a bit buggy and appears after the cube is slightly rotated.
 The light position is also fixed wrt to the camera and no mouse movement would rotate light. Therefore all surfaces appear equally bright.
 If the light position is to be kept fixed wrt the world coordinates, then this change in code is required:
-'''
+```
 void disp(){
 
     glClearColor(0, 0, 0, 0);
@@ -98,7 +100,7 @@ void disp(){
     colorcube();
     glutSwapBuffers(); // use instead of glFlush()
 }
-'''
+```
 
 # Conclusion
 If certain improvements can be done to the done, I shall be glad to know. Or if you wish to know anything related, you can find me on LinkedIn @ygutgutia
