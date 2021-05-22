@@ -103,4 +103,4 @@ void disp(){
 ```
 
 # Conclusion
-If certain improvements can be done to the done, I shall be glad to know. Or if you wish to know anything related, you can find me on LinkedIn @ygutgutia
+If certain improvements can be done to the code, I shall be glad to hear.
